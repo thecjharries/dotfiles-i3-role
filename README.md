@@ -1,6 +1,7 @@
 # `dotfiles-role-i3`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-i3.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-i3)
+[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-i3.svg)](https://github.com/thecjharries/dotfiles-role-i3)
 
 ## Requirements
 
