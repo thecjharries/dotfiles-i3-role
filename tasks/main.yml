@@ -1,7 +1,7 @@
 ---
 - name: "Template i3 config"
   include_role:
-    name: dotfiles-generic-template-role
+    name: dotfiles-role-generic-template
   vars:
     template_root: "{{ config_dir }}"
     template_path: "{{ item }}"

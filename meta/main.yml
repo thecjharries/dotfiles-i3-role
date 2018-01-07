@@ -1,7 +1,7 @@
 ---
 dependencies:
-  - role: dotfiles-common-software-role
-  - role: dotfiles-terminator-role
-  - role: dotfiles-sublime-role
-  - role: dotfiles-package-installer-role
+  - role: dotfiles-role-common-software
+  - role: dotfiles-role-terminator
+  - role: dotfiles-role-sublime
+  - role: dotfiles-role-package-installer
     packages_to_install: "{{ needed_packages }}"
