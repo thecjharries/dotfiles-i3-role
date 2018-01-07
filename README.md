@@ -1,6 +1,8 @@
-# `dotfiles-i3-role`
+# `dotfiles-role-i3`
+# `dotfiles-role-i3`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-i3-role.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-i3-role)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-i3.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-i3)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-i3.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-i3)
 
 ## Requirements
 
@@ -35,12 +37,18 @@ needed_packages:
 
 ```yml
 ---
-- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
-- src: git+https://github.com/thecjharries/dotfiles-package-installer-role.git
-- src: git+https://github.com/thecjharries/dotfiles-generic-template-role.git
-- src: git+https://github.com/thecjharries/dotfiles-git-role.git
-- src: git+https://github.com/thecjharries/dotfiles-sublime-role.git
-- src: git+https://github.com/thecjharries/dotfiles-terminator-role.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
+- src: git+https://github.com/thecjharries/dotfiles-role-git.git
+- src: git+https://github.com/thecjharries/dotfiles-role-git.git
+- src: git+https://github.com/thecjharries/dotfiles-role-sublime.git
+- src: git+https://github.com/thecjharries/dotfiles-role-sublime.git
+- src: git+https://github.com/thecjharries/dotfiles-role-terminator.git
+- src: git+https://github.com/thecjharries/dotfiles-role-terminator.git
 ```
 
 ## Example Playbook
@@ -50,7 +58,8 @@ needed_packages:
 - hosts: all
 
   roles:
-    - role: dotfiles-i3-role
+    - role: dotfiles-role-i3
+    - role: dotfiles-role-i3
 ```
 
 ## License
